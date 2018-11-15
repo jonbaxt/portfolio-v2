@@ -51,13 +51,15 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    // justifyContent: 'center',
   },
   linkStyled: {
     textDecorationLine: 'none',
-    // textDecorationUnderline: 'none',
     color: 'white',   
     marginLeft: '10px',
     marginRight: '10px',
+    '@media(max-width: 400px)': {
+        fontSize: 10,
+        textAlign: 'center',
+    },
   }
 });

@@ -1,4 +1,4 @@
     export function aboutInfo1() { return "I'm a Web Developer specializing in Javascript, React, HTML, CSS and many other languages and frameworks based off courses taken at DevMountain and UVU."};
     export function aboutInfo2() { return  "Prior to Web Development I worked with the State of Utah in the department of human services using my Bachelors of Sociology from BYU-Idaho, which helped me learn skills in customer care and team building skills."};
     export function aboutInfo3() {return "I have studied coding independently and have taken courses from UVU and DevMountain to enhance my skills as a web developer."};
-    export function aboutInfo4() { "I love to understand all aspects of code, from front to back. I also love learning, and am always working on enhancing and updating my skills as a developer."};
+    export function aboutInfo4() {return "I love to understand all aspects of code, from front to back. I also love learning, and am always working on enhancing and updating my skills as a developer."};
