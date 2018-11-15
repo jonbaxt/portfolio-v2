@@ -20,6 +20,9 @@ class App extends Component {
 
             <a className={css(styles.linkStyled)} href='#skillsSection'>Skills</a>
 
+            <a className={css(styles.linkStyled)} href='#projectsSection'>Projects</a>
+
+            <a className={css(styles.linkStyled)} href='#contactSection'>Contact</a>
           </div>
         </div>
         <Introduction />
