@@ -7,6 +7,7 @@ import './App.css';
 import Introduction from './Components/Sections/Introduction';
 import About from './Components/Sections/About';
 import Skills from './Components/Sections/Skills';
+import Projects from './Components/Sections/Projects';
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
         <Introduction />
         <About />
         <Skills />
+        <Projects />
       </div>
     );
   }
