@@ -4,24 +4,22 @@ import BackgroundSlideshow from 'react-background-slideshow';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 import image1 from '../../Resources/Mountains.jpg';
-import image2 from '../../Resources/about.jpg';
-// import image3 from '../../Resources/Resized.PNG';
-import image4 from '../../Resources/fishing.jpg';
-import image5 from '../../Resources/Unsplash.jpg'
+import city from '../../Resources/CityAtNight.jpg';
+import landscape from '../../Resources/LandScape-Riccardo-Chiarini.jpg'
+import turkey from '../../Resources/turkey.jpg';
+import waterfall from '../../Resources/waterfall.jpg';
+
 
 export default function Introduction() {
 
     return (
         <div className={css(styles.outer)}>
-                <ScrollableAnchor id={'introSection'}>
-                    <p className={css(styles.hiddenForTag)}>Hidden</p>
-                </ScrollableAnchor>
+            <ScrollableAnchor id={'introSection'}>
+                <p className={css(styles.hiddenForTag)}>Hidden</p>
+            </ScrollableAnchor>
             <div className={css(styles.main)}>
-
-        
-                <BackgroundSlideshow images={[image1, image5, image2, image4]} />
-                Top Section
-            <h1 className={css(styles.bigFont)}>Jonathan Baxter</h1>
+                <BackgroundSlideshow images={[image1, city, landscape, turkey, waterfall]} />
+                <h1 className={css(styles.bigFont)}>Jonathan Baxter</h1>
 
                 <h1 className={css(styles.lessBig, styles.gapBetween)}>Web Developer</h1>
 
