@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     textShadow: '1px 1px 2px black',
   },
   navMain: {
-    zIndex: '11',
+    zIndex: '201',
     position: 'fixed',
     width: '100%',
     height: '40px',

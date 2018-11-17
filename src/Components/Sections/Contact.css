@@ -1,0 +1,8 @@
+#Slides {
+    /* position: fixed; */
+    position: absolute;
+    bottom: 1;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+}
